@@ -1,6 +1,6 @@
 import csv
 
-with open("movie_data_clean.csv", "r", encoding="utf-8") as file:
+with open("movie_data.csv", "r", encoding="utf-8") as file:
     reader = csv.reader(file)
     headers = next(reader)
     data = [row for row in reader]
@@ -32,7 +32,7 @@ def quick_sort(data, low, high, index):
 vote_count = headers.index("vote_count")
 quick_sort(data, 0, len(data) - 1, vote_count)
 
-with open("sorted_movie_data_clean.csv", "w", newline="", encoding="utf-8") as file:
+with open("sorted_movie_data.csv", "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow(headers)
     for row in data:
