@@ -1,4 +1,4 @@
-Unnamed: 0,movie_id,original_language,original_title,popularity,release_date,title,vote_average,vote_count,genres
+,movie_id,original_language,original_title,popularity,release_date,title,vote_average,vote_count,genres
 0,783461,hi,लूप लपेटा,56.311,2022-02-04,Looop Lapeta,6.2,54,"[{'id': 28, 'name': 'Action'}, {'id': 35, 'name': 'Comedy'}, {'id': 80, 'name': 'Crime'}]"
 1,592508,hi,Sooryavanshi,45.077,2021-11-05,Sooryavanshi,5.8,133,"[{'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}, {'id': 53, 'name': 'Thriller'}]"
 2,864692,hi,पठान,47.611,2023-01-25,Pathaan,6.7,70,"[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 53, 'name': 'Thriller'}]"
