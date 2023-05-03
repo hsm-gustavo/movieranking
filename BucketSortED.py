@@ -23,8 +23,4 @@ for bucket in buckets:
 
 sorted_df = pd.concat([pd.DataFrame(bucket) for bucket in buckets])
 
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_colwidth', None)
-
 sorted_df
