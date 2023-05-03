@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\Henrique\Downloads\Estrutura de dados UFAL\Sort Banco de Dados\movie_data.csv")
+df = pd.read_csv("movie_data.csv")
 
 num_buckets = 10
 
