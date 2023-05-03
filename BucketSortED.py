@@ -22,5 +22,4 @@ for bucket in buckets:
     bucket.sort(key=lambda x: x["vote_count"])
 
 sorted_df = pd.concat([pd.DataFrame(bucket) for bucket in buckets])
-
-sorted_df
+sorted_df.to_csv("BUCKET_movie_data.csv")
